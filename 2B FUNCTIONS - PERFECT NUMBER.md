@@ -1,32 +1,40 @@
-# Exp.No:2b  
-## FUNCTIONS - PERFECT NUMBER
+# Exp.No:2(a) ITERATIVE STATEMENTS- PRINTING DIVISIBLE BY 11 NUMBERS
 
-### AIM  
-To write a Python program to check if a number is a Perfect number using the concept of functions.
+# AIM
+To create a print numbers range from M to N (including M and N values) divisible by 11 in reverse order.
 
----
+# ALGORITHM
+1.Start
 
-### ALGORITHM
+2.Read integer a from the user.
 
-1. Begin the program.  
-2. Read the number `n` from the user using `input()`.  
-3. Convert the input to an integer.  
-4. Define the function `perfectNumber(n)` with the following steps:  
-    - Initialize a variable `factor_sum` to 0.  
-    - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
-    - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
-5. Terminate the program.
+3.Read integer b from the user.
 
----
+4.Loop from i = b down to a (inclusive):
 
-### PROGRAM
+5.Use a for loop: for i in range(b, a - 1, -1)
+
+6.Check if the current number i is divisible by 11:
+
+7.If i % 11 == 0, then:
+
+8.Print i
+
+9.End
+
+# PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add your Code Here
-
+# REGNO:-212223060038
+# Name:-Deepak krishna.J
+a=int(input())
+b=int(input())
+for i in range(b,a-1,-1):
+    if i%11==0:
+        print(i)
 ```
-### OUTPUT
+# OUTPUT
+<img width="337" height="403" alt="image" src="https://github.com/user-attachments/assets/64a4594c-829a-4c85-945c-2d6ed388e548" />
 
-### RESULT
+
+# RESULT
+Thus the python program for print numbers range from M to N (including M and N values) divisible by 11 in reverse order has been implemented and executed successfully.
