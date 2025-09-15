@@ -24,7 +24,7 @@ To write a program to print inverted pyramid pattern with the same digit.
 
 # PROGRAM
 ```
-# REGNO:-212222060142
+# REGNO:-212223060038
 # Name:-Deepak krishna.J
 a=int(input())
 for i in range(a,0,-1):
