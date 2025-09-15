@@ -16,8 +16,8 @@ To write a python program to count the number of digits in a number.
 
 # PROGRAM
 ```
-# REGNO:-212222060142
-# Name:-Meghana Mallavaram
+# REGNO:-212223060038
+# Name:-Deepak krishna.J
 a=input()
 b=len (a)
 print("The number of digits in the number are:",b)
